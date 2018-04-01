@@ -2,7 +2,7 @@
 #define Version "v3.1.0"
 
 /**
-  2015 Mahmud Sami Ünlü
+  2016 Mahmud Sami Ünlü
 
   Butonla ders seciliyor
   Serial.timeout konuldu
@@ -445,7 +445,7 @@ boolean InitializeNetwork() {
     //EEPROM.write(95, 0);
     ///  EEPROM.commit();
 
-    WiFi.begin(WifiSSID.c_str() ,          WifiPASS.c_str());
+    WiFi.begin(WifiSSID.c_str() ,  WifiPASS.c_str());
 
     while (WiFi.status() != WL_CONNECTED) {
 
